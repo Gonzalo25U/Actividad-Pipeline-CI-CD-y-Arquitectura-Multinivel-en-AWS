@@ -25,5 +25,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/actividad-cicd:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/actividad-cicd:v${{ github.run_number }}
+            ${{ secrets.USER_DOCKERHUB }}/actividad-cicd:latest
+            ${{ secrets.USER_DOCKERHUB }}/actividad-cicd:v${{ github.run_number }}
