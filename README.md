@@ -1,5 +1,11 @@
 # Actividad-Pipeline-CI-CD-y-Arquitectura-Multinivel-en-AWS
- Estructura de Ramas (Contexto de Git Flow)Es vital que cualquier persona que clone tu repo sepa para qué sirven esas tres ramas que mencionas. Puedes añadir una sección de "Desarrollo" así:Markdown## 🛠️ Flujo de Trabajo (Git Flow)
+Para mantener la integridad del código y facilitar la entrega continua, este proyecto sigue una estructura de ramificación basada en Git Flow. Es fundamental respetar el propósito de cada rama:
+
+main: Es la rama de producción. Contiene el código estable, probado y listo para el usuario final. Cada cambio aquí genera una nueva versión oficial del sistema.
+
+develop: Es la rama de integración. Aquí es donde se reúnen todas las funcionalidades terminadas antes de pasar a producción. Es el entorno de "pre-estreno" donde se realizan las pruebas de integración.
+
+feature/[nombre-tarea]: Son ramas temporales de desarrollo. Cada vez que vayas a trabajar en una nueva funcionalidad o corrección, debes crear una rama desde develop. Una vez terminada la tarea, se solicita un Pull Request para reintegrarla.
 
 ## Este proyecto utiliza una metodología basada en **Git Flow**. Actualmente, el desarrollo se divide en las siguientes ramas de características:
 
